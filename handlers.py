@@ -18,7 +18,7 @@ def get_main_menu():
     builder.button(text="🛠️ Услуги и цены", callback_data="services")
     builder.button(text="🎁 Получить подарок", callback_data="gift")
     builder.button(text="✍️ Оставить заявку", callback_data="make_order")
-    builder.adjust(2, 1, 1)  # Сетка кнопок: 2 в первом ряду, потом по одной
+    builder.adjust(2, 1, 1)
     return builder.as_markup()
 
 
